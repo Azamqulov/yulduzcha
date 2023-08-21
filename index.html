@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Bouncy Star Rating</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form class="rating">
+	<div class="rating__stars">
+		<input id="rating-1" class="rating__input rating__input-1" type="radio" name="rating" value="1">
+		<input id="rating-2" class="rating__input rating__input-2" type="radio" name="rating" value="2">
+		<input id="rating-3" class="rating__input rating__input-3" type="radio" name="rating" value="3">
+		<input id="rating-4" class="rating__input rating__input-4" type="radio" name="rating" value="4">
+		<input id="rating-5" class="rating__input rating__input-5" type="radio" name="rating" value="5">
+		<label class="rating__label" for="rating-1">
+			<svg class="rating__star" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
+				<ellipse class="rating__star-shadow" cx="16" cy="31" rx="16" ry="1" />
+				<g class="rating__star-body-g">
+					<path class="rating__star-body" d="M15.5,26.8l-8.2,4.3c-0.8,0.4-1.7-0.3-1.6-1.1l1.6-9.2c0.1-0.3-0.1-0.7-0.3-1l-6.7-6.5c-0.6-0.6-0.3-1.7,0.6-1.8l9.2-1.3c0.4-0.1,0.7-0.3,0.8-0.6L15,1.3c0.4-0.8,1.5-0.8,1.9,0l4.1,8.3c0.2,0.3,0.5,0.5,0.8,0.6l9.2,1.3c0.9,0.1,1.2,1.2,0.6,1.8L25,19.9c-0.3,0.2-0.4,0.6-0.3,1l1.6,9.2c0.2,0.9-0.8,1.5-1.6,1.1l-8.2-4.3C16.2,26.7,15.8,26.7,15.5,26.8z" />
+				</g>
+			</svg>
+			<span class="rating__sr">1 star</span>
+		</label>
+		<label class="rating__label" for="rating-2">
+			<svg class="rating__star" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
+				<ellipse class="rating__star-shadow" cx="16" cy="31" rx="16" ry="1" />
+				<g class="rating__star-body-g">
+					<path class="rating__star-body" d="M15.5,26.8l-8.2,4.3c-0.8,0.4-1.7-0.3-1.6-1.1l1.6-9.2c0.1-0.3-0.1-0.7-0.3-1l-6.7-6.5c-0.6-0.6-0.3-1.7,0.6-1.8l9.2-1.3c0.4-0.1,0.7-0.3,0.8-0.6L15,1.3c0.4-0.8,1.5-0.8,1.9,0l4.1,8.3c0.2,0.3,0.5,0.5,0.8,0.6l9.2,1.3c0.9,0.1,1.2,1.2,0.6,1.8L25,19.9c-0.3,0.2-0.4,0.6-0.3,1l1.6,9.2c0.2,0.9-0.8,1.5-1.6,1.1l-8.2-4.3C16.2,26.7,15.8,26.7,15.5,26.8z" />
+				</g>
+			</svg>
+			<span class="rating__sr">2 stars</span>
+		</label>
+		<label class="rating__label" for="rating-3">
+			<svg class="rating__star" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
+				<ellipse class="rating__star-shadow" cx="16" cy="31" rx="16" ry="1" />
+				<g class="rating__star-body-g">
+					<path class="rating__star-body" d="M15.5,26.8l-8.2,4.3c-0.8,0.4-1.7-0.3-1.6-1.1l1.6-9.2c0.1-0.3-0.1-0.7-0.3-1l-6.7-6.5c-0.6-0.6-0.3-1.7,0.6-1.8l9.2-1.3c0.4-0.1,0.7-0.3,0.8-0.6L15,1.3c0.4-0.8,1.5-0.8,1.9,0l4.1,8.3c0.2,0.3,0.5,0.5,0.8,0.6l9.2,1.3c0.9,0.1,1.2,1.2,0.6,1.8L25,19.9c-0.3,0.2-0.4,0.6-0.3,1l1.6,9.2c0.2,0.9-0.8,1.5-1.6,1.1l-8.2-4.3C16.2,26.7,15.8,26.7,15.5,26.8z" />
+				</g>
+			</svg>
+			<span class="rating__sr">3 stars</span>
+		</label>
+		<label class="rating__label" for="rating-4">
+			<svg class="rating__star" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
+				<ellipse class="rating__star-shadow" cx="16" cy="31" rx="16" ry="1" />
+				<g class="rating__star-body-g">
+					<path class="rating__star-body" d="M15.5,26.8l-8.2,4.3c-0.8,0.4-1.7-0.3-1.6-1.1l1.6-9.2c0.1-0.3-0.1-0.7-0.3-1l-6.7-6.5c-0.6-0.6-0.3-1.7,0.6-1.8l9.2-1.3c0.4-0.1,0.7-0.3,0.8-0.6L15,1.3c0.4-0.8,1.5-0.8,1.9,0l4.1,8.3c0.2,0.3,0.5,0.5,0.8,0.6l9.2,1.3c0.9,0.1,1.2,1.2,0.6,1.8L25,19.9c-0.3,0.2-0.4,0.6-0.3,1l1.6,9.2c0.2,0.9-0.8,1.5-1.6,1.1l-8.2-4.3C16.2,26.7,15.8,26.7,15.5,26.8z" />
+				</g>
+			</svg>
+			<span class="rating__sr">4 stars</span>
+		</label>
+		<label class="rating__label" for="rating-5">
+			<svg class="rating__star" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
+				<ellipse class="rating__star-shadow" cx="16" cy="31" rx="16" ry="1" />
+				<g class="rating__star-body-g">
+					<path class="rating__star-body" d="M15.5,26.8l-8.2,4.3c-0.8,0.4-1.7-0.3-1.6-1.1l1.6-9.2c0.1-0.3-0.1-0.7-0.3-1l-6.7-6.5c-0.6-0.6-0.3-1.7,0.6-1.8l9.2-1.3c0.4-0.1,0.7-0.3,0.8-0.6L15,1.3c0.4-0.8,1.5-0.8,1.9,0l4.1,8.3c0.2,0.3,0.5,0.5,0.8,0.6l9.2,1.3c0.9,0.1,1.2,1.2,0.6,1.8L25,19.9c-0.3,0.2-0.4,0.6-0.3,1l1.6,9.2c0.2,0.9-0.8,1.5-1.6,1.1l-8.2-4.3C16.2,26.7,15.8,26.7,15.5,26.8z" />
+				</g>
+			</svg>
+			<span class="rating__sr">5 stars</span>
+		</label>
+	</div>
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
